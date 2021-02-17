@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Block14</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="style.css" id="changetheme">
+    <script defer src="render.js"></script>
+</head>
+
+<body>
+    <div class="main_container">
+        <button class="buttonn btal" id="tlo" onclick="lighton()">Light</button>
+        <button class="buttonn btal" id="tdo" onclick="lightoff()">Dark</button>
+        <p id="future">The Future Of Ad-Blocking Is Here!</p>
+
+        <div class="search">
+            <form class="addblacklist"> <input placeholder="White list Domains:" type="text" id="search">
+            </form>
+        </div>
+        <div class="ali">
+            <div class="blacklistparent">
+                <ul id="blacklistl"> </ul>
+            </div>
+        </div>
+
+        <button id="off" class="button" onclick="off()">Off</button>
+        <button id="on" class="button" onclick="on()">On</button>
+        <p style="color: red;" id="status">INACTIVE</p>

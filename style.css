@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+
+
+.main_container{
+    color: white;
+    height: 100vh;
+    
+    background-color: rgb(17, 17, 17);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#future{
+    padding-top: 20%;
+    font-size: xx-large;
+    text-align: center;
+
+
+}
+
+.search{
+    text-align: center;
+    
+}
+#search{
+    padding-left: 10px;
+    margin-top: 40px;
+    height: 30px;
+    width: 400px;
+    border-radius: 8px;
+    outline-style: none;
+    border: none;
+    border-style: nones;
+
+}
+
+.button{
+    position: absolute;
+    bottom: 0%;
+    height: 30px;
+    width: 55px;
+    border-radius: 4px;
+    outline-style: none;
+    border: none;
+    border-style: nones;
+}
+
+
+#on{
+    left: 0%;
+}
+
+#off{
+    right: 0%;
+    }
+
+#on:hover,#off:hover{
+    background-color: rgba(255, 255, 255, 0.322);
+}
+
+#on:active,#off:active{
+    background-color: rgba(255, 255, 255, 0.116);
+}
+
+#status{
+    text-align: center;
+}
+
+
+.blacklistparent{
+    padding-top: 20px;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: 20px;
+    height: 400px;
+    background-color:  rgba(31, 31, 31, 0.664);
+    width: 400px;
+    overflow: auto;
+}
+
+.buttonn{
+    height: 30px;
+    width: 55px;
+    border-radius: 4px;
+    outline-style: none;
+    border: none;
+    border-style: nones;
+    color: rgb(24, 23, 23);
+    background-color: rgba(197, 192, 192, 0.616);
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+
+.btal:hover{
+    background-color: rgba(255, 255, 255, 0.322);
+}
+
+.btal:active{
+    background-color: rgba(255, 255, 255, 0.116);
+}
+
+
+li{
+    text-align: center;
+    background-color: rgba(43, 42, 42, 0.438);
+    color: white;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: black;
+    width: 320px;
+    margin-top: 6px;
+    padding: 8px;
+    list-style: none;
+
+
+}
+
+li:hover{
+    background-color: rgba(12, 12, 12, 0.692);
+}

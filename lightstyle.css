@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+
+
+.main_container{
+    color: rgb(0, 0, 0);
+    height: 100vh;
+    
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#future{
+    padding-top: 20%;
+    font-size: xx-large;
+    text-align: center;
+
+
+}
+
+.search{
+    
+    text-align: center;
+    
+}
+#search{
+    color: black;
+    background-color: rgba(0, 0, 0, 0.226);
+    padding-left: 10px;
+    margin-top: 40px;
+    height: 30px;
+    width: 400px;
+    border-radius: 8px;
+    outline-style: none;
+    border: none;
+    border-style: nones;
+
+}
+
+.button{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.616);
+    position: absolute;
+    bottom: 0%;
+    height: 30px;
+    width: 55px;
+    border-radius: 4px;
+    outline-style: none;
+    border: none;
+    border-style: nones;
+}
+
+
+#on{
+    left: 0%;
+}
+
+#off{
+    right: 0%;
+    }
+
+#on:hover,#off:hover{
+    background-color: rgba(10, 10, 10, 0.322);
+}
+
+#on:active,#off:active{
+    background-color: rgba(0, 0, 0, 0.116);
+}
+
+#status{
+    text-align: center;
+}
+
+
+.blacklistparent{
+    border-radius: 6px;
+    margin: auto;
+    margin-top: 20px;
+    height: 400px;
+    background-color: rgba(214, 222, 240, 0.623);
+    width: 400px;
+}
+
+
+
+.buttonn{
+    height: 30px;
+    width: 55px;
+    border-radius: 4px;
+    outline-style: none;
+    border: none;
+    border-style: nones;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.616);
+}
